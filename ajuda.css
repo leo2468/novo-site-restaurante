@@ -1,0 +1,67 @@
+body{
+    font: normal 18pt arial;
+    background-color:rgb(118, 168, 168);
+    color: black;
+   
+}
+.voltar{
+    text-decoration: none;
+   
+}
+button{
+    border-radius: 15px;
+    color: black;
+}
+.voltar:hover{
+    color:red;
+    
+   
+ 
+
+}
+
+#res{
+    font-size: 12px;
+}
+input{
+    font-size: x-large;
+    border-radius: 10px;
+    color: rgb(37, 93, 138);
+   
+}
+.mensagem:hover{
+   color: red;
+ 
+}
+.voltar{
+    font-size: x-large;
+   
+  
+   
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+.responsivo{
+    text-align: center; 
+    font-size: 15px;
+}
+
+.texto{
+    width: 90%;
+    height: 150px;
+}
+
+.voltar a{
+font-size: 14px;
+height: 10px;
+width: 10px;
+
+    
+}
+.mensagem{
+font-size: 23px;
+}
+}

@@ -1,0 +1,306 @@
+
+
+    
+    body{
+        background-position: 100%;
+        background-color: #008d8d;
+        font-family: 'Times New Roman', Times, serif;
+        background-repeat: no-repeat;
+        background-size:  100% ;
+        position: static;
+    
+    }
+header{
+    height: 100%;
+    width: 100%;
+}
+   
+  
+
+    .sumario{
+        margin-left:20px ;
+        font-family:Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+
+    /*inicio do overflow-x: auto*/
+     
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        text-align: center;
+      
+    }
+    
+    .card{
+        background-color: #f1f1f1;
+        min-width: 250px;
+        margin: 10px;
+        height: 200px;
+        text-align: center; 
+      
+       
+      
+    }
+   
+
+    .a{
+    color: #008d47;
+    margin-top: 100%;
+    margin-top: 300px;
+    }
+
+
+    footer{
+        
+
+        background-color:rgb(24, 9, 9); 
+        height: 150px;
+        width: 100%;
+        font-family:  'normal Narrow Bold', sans-serif ;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        grid-auto-flow: column;
+        
+        
+        
+    }
+
+
+    .rodape-div{
+    margin-top:0px ;
+    text-align: center;
+    padding-top: 0px;
+    padding: 20px  20px 0px;
+    display: flex;
+
+
+
+    }
+   
+    .link-redes-sociais{
+        margin: 20px 500px 0px;
+        text-align: center;
+    
+      
+    }
+
+
+    .container-oferta{
+        background-color: #0b0a4e;
+        height: 130px;
+        width: 100%;
+        
+    
+
+    
+    }
+
+    .desconto{
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(238, 7, 76);
+    
+
+
+
+    }
+   
+
+
+
+
+    /*-------------------------------- deixando responsivo ---------------------------------*/
+
+
+
+
+    @media (min-width:250px) and  ( max-width:700px){
+        
+        body{
+          grid-template-columns: auto;
+            background-size:  10% ;
+        }
+
+        
+
+        section{
+            background-color: #008d8d;
+            margin-top: 0px;
+            display: auto;
+        }
+        .desconto{
+            font-size: 20px;
+        }
+        .sumario{
+            margin-top: 0px;
+            margin: 1px;
+            width: 100%;
+            padding: 5px;
+        }
+
+        .container-oferta h4{
+
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .link-redes-sociais{
+            margin: 10px 0px;
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+            display: inline-block;
+            grid-row: auto;
+          
+          
+          
+          
+        }
+        div a{
+     
+        text-align: center;
+        }
+
+        .rodape-div{
+            place-items: 20px;
+            width: 100%;
+            
+        
+        
+        
+            }
+            .rodape-div ul a{
+            display: auto;
+           
+        
+            }
+
+            
+            .container-oferta{
+                background-color: #0b0a4e;
+                height: 160px;
+                width: 100%;
+                
+            
+        
+            
+            }
+        
+            .desconto{
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: rgb(238, 7, 76);
+            
+        
+        
+        
+            }
+           
+           
+            
+          
+    }
+
+
+    
+    @media ( max-width:281px){
+        
+        body{
+          grid-template-columns: auto;
+            background-size:  10% ;
+        }
+        header{
+            height: 100%;
+            width: 130%;
+        }
+
+        
+
+        section{
+            background-color: #008d8d;
+            margin-top: 0px;
+            display: auto;
+        }
+        .desconto{
+            font-size: 20px;
+        }
+        .sumario{
+            margin-top: 0px;
+            margin: 1px;
+            width: 100%;
+            padding: 5px;
+        }
+
+        .container-oferta h4{
+
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .link-redes-sociais{
+            margin: 10px 0px;
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+            display: inline-block;
+            grid-row: auto;
+          
+          
+          
+          
+        }
+        div a{
+     
+        text-align: center;
+        }
+
+        .rodape-div{
+            place-items: 20px;
+            width: 100%;
+            
+        
+        
+        
+            }
+            .rodape-div ul a{
+            display: auto;
+           
+        
+            }
+
+            
+            .container-oferta{
+                background-color: #0b0a4e;
+                height: 120px;
+                width: 130%;
+                
+            
+        
+            
+            }
+        
+            .desconto{
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: rgb(238, 7, 76);
+            
+        
+        
+        
+            }
+           
+           
+            
+          
+    }

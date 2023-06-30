@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajuda</title>
+    <link rel="stylesheet" href="ajuda.css">
+</head>
+<body>
+
+    
+    <form >
+
+     <div class="responsivo">
+
+    <h2>Area de  Duvidas</h2>
+
+ 
+
+    <p><strong> favor, Preencha Abaixo que responderemos em até 10 minutos.</strong></p>
+
+
+
+        <div class="responsivo">
+
+        <p><strong>Nome:</strong><input type="text" name="nome" placeholder="Nome*" id="nome"></p>
+        <p><strong>E-mail:</strong><input type="email" name="email" placeholder="E-mail*" id="email"></p>
+        <label for="mensagem"><strong>Digite aqui a sua  pergunta:</strong></label><br>
+        
+        <textarea class="texto" name="mensagem" id="mensagem"  placeholder= "Ex: Não consigo logar com meu e-mail. "
+         cols="90" rows="20"></textarea> <br> <!--aqui recebe apergunta do usúario -->
+        
+     
+            <div id="res"></div>
+            <br>
+        
+        <input class="mensagem" type="button" value="ENVIAR" onclick="enviar()" >
+        <button><a class="voltar" href="index.html">VOLTAR AO MENU</a></button>
+
+    </div>
+        
+       
+    </form>
+
+    <script src="ajuda.js"></script>
+    
+</body>
+</html>
